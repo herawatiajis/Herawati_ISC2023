@@ -7,7 +7,6 @@ public class day81 {
         // Hari ke 81 dari 100 hari
          Scanner scanner = new Scanner(System.in);
 
-        // Meminta pengguna memasukkan nomor bulan
         System.out.print("Masukkan nomor bulan (1-12): ");
         int nomorBulan = scanner.nextInt();
 
@@ -53,7 +52,6 @@ public class day81 {
                 namaBulan = "Nomor bulan tidak valid";
         }
 
-        // Menampilkan nama bulan
         System.out.println("Nama bulan: " + namaBulan);
     }
     
